@@ -1,6 +1,7 @@
 # tasks/tests/test_api.py
 import pytest
 from rest_framework.test import APIClient
+from rest_framework import status
 from django.contrib.auth.models import User
 from django.urls import reverse
 from datetime import datetime, timedelta
